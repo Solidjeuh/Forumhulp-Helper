@@ -19,6 +19,8 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
+    'FH_DISABLE_ALL'		=> 'Schakel alle extensies uit',
+	
 	'LOG_CORE_INSTALLED'	=> '<strong>Forumhulp Helper</strong><br />» Bestanden succesvol gewijzigd',
 	'LOG_CORE_DEINSTALLED'	=> '<strong>Forumhulp Helper</strong><br />» Bestanden succesvol hersteld',
 	'LOG_CORE_NOT_REPLACED'	=> '<strong>Forumhulp Helper</strong><br />» Kan bestand(en) niet vervangen<br />» %s',
